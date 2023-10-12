@@ -1,0 +1,15 @@
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/bin/Debug/net8.0/3-writeline
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/bin/Debug/net8.0/3-writeline.deps.json
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/bin/Debug/net8.0/3-writeline.runtimeconfig.json
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/bin/Debug/net8.0/3-writeline.dll
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/bin/Debug/net8.0/3-writeline.pdb
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.GeneratedMSBuildEditorConfig.editorconfig
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.AssemblyInfoInputs.cache
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.AssemblyInfo.cs
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.csproj.CoreCompileInputs.cache
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.sourcelink.json
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.dll
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/obj/Debug/net8.0/refint/3-writeline.dll
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.pdb
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.genruntimeconfig.cache
+/home/ez/dev/holberton/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/obj/Debug/net8.0/ref/3-writeline.dll
