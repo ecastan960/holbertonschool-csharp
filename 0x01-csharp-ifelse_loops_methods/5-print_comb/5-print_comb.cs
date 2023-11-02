@@ -10,7 +10,7 @@ namespace _5_print_comb
             {
                 Console.Write("{0}, ", String.Format("{0:00}", i));
             }
-            Console.Write("99");
+            Console.Write("99\n");
         }
     }
 }
