@@ -8,7 +8,7 @@ namespace _0_print_array
         {
             if (size < 0)
             {
-                Console.WriteLine("Size cannot be negative");
+                Console.Write("Size cannot be negative");
                 return null;
             }
             if (size == 0)
