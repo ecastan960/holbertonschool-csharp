@@ -1,15 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 class Dictionary
 {
     public static string BestScore(Dictionary<string, int> myList)
     {
         if (myList.Count == 0) return "None";
-        var sortedDict = myList.OrderBy(pair => pair.Value).ToDictionary(pair => pair.Key, pair => pair.Value);
-        var last = sortedDict.Last();
-        return last.Key;
+        string key = "";
+        int score = 0;
+        foreach (KeyValuePair<string, int> ele in myList)
+        {
+            if (ele.Value > score)
+            {
+                key = ele.Key;
+                score = ele.Value;
+            }
+        }
+        return key;
     }
 }
 
