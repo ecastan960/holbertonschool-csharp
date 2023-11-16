@@ -20,7 +20,7 @@ class MyStack
         {
             Console.WriteLine("Top item: {0}", aStack.Peek());
         }
-        Console.WriteLine("Stack contains {0}: {1}", search, aStack.Contains(search));
+        Console.WriteLine("Stack contains \"{0}\": {1}", search, aStack.Contains(search));
         if (aStack.Contains(search) == true)
         {
             foreach (string item in copyStack)
