@@ -7,6 +7,7 @@ class MyStack
     public static Stack<string> Info(Stack<string> aStack, string newItem, string search)
     {
         Stack<string> copyStack = new Stack<string>();
+        int pop = 0;
         foreach (string item in aStack)
         {
             copyStack.Push(item);
@@ -26,10 +27,13 @@ class MyStack
             foreach (string item in copyStack)
             {
                 aStack.Pop();
+                if (pop == 1)
+                {
+                    break;
+                }
                 if (item == search)
                 {
-                    aStack.Pop();
-                    break;
+                    pop += 1;
                 }
             }
         }
