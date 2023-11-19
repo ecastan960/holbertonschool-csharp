@@ -9,14 +9,21 @@ class LList
         int nextNodeValue = 0;
         foreach (int number in myLList)
         {
-            if (number > n)
+            if (number >= n)
             {
                 nextNodeValue = number;
                 break;
             }
         }
-        LinkedListNode<int> temp = myLList.Find(nextNodeValue);
-        myLList.AddBefore(temp, n);
+        if (nextNodeValue == 0)
+        {
+            myLList.AddLast(n);
+        }
+        else
+        {
+            LinkedListNode<int> temp = myLList.Find(nextNodeValue);
+            myLList.AddBefore(temp, n);
+        }
         return myLList.Find(n);
     }
 }
