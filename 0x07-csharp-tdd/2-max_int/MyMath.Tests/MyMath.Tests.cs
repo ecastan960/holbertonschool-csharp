@@ -19,6 +19,17 @@ namespace MyMath.Tests
         }
 
         [Test]
+        public void NegativeTest()
+        {
+            List<int> list = new List<int>();
+            list.Add(-1);
+            list.Add(-2);
+            list.Add(-3);
+            list.Add(-4);
+            Assert.AreEqual(-1, MyMath.Operations.Max(list));
+        }
+
+        [Test]
         public void zeroTest()
         {
             List<int> list = new List<int>();

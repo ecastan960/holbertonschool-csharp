@@ -18,11 +18,12 @@ namespace MyMath
             int max = 0;
             if (nums.Count == 0)
             {
-                return max;
+                return 0;
             }
             foreach (int num in nums)
             {
-                if (num > max)
+                if (max == 0) max = num;
+                else if (num > max)
                 {
                     max = num;
                 }
