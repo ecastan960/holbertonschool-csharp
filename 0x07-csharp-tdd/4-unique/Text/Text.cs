@@ -15,6 +15,8 @@ namespace Text
         public static int UniqueChar(string s)
         {
             int flag = 0;
+            if (s.Length == 0) return -1;
+            if (s.Length == 1) return 0;
             for (int i = 0; i < s.Length; i++)
             {
                 for (int j = 0; j < s.Length; j++)
