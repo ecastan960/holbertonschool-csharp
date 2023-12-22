@@ -1,38 +1,29 @@
-﻿using System.Text;
-using System;
-using System.Globalization;
+﻿using System;
 using System.Reflection;
 using System.Collections.Generic;
-using System.Linq;
+/// <summary>
+/// Obj class add on
+/// </summary>
 class Obj
 {
+    /// <summary>
+    /// method that prints methods and properties of an object
+    /// </summary>
+    /// <param name="myObj">input object</param>
     public static void Print(object myObj)
     {
         TypeInfo objType = myObj.GetType().GetTypeInfo();
-        string preformatstr = objType.ToString();
-        if (preformatstr[preformatstr.Length - 1] == ']')
-        {
-            string[] split1 = preformatstr.Split('[');
-            preformatstr = split1[0];
-        }
-        string[] strArray = preformatstr.Split('.');
-        string formatstr = strArray[strArray.Length - 1];
-        Console.WriteLine("{0} Properties:", formatstr);
+        Console.WriteLine("{0} Properties:", objType.Name);
         PropertyInfo[] typeProperties = myObj.GetType().GetProperties();
         for (int i = 0; i < typeProperties.Length; i++)
         {
-            string s = typeProperties[i].ToString();
-            string[] output = s.Split(' ');
-            Console.WriteLine("{0}", output[1]);
+            Console.WriteLine("{0}", typeProperties[i].Name);
         }
-        Console.WriteLine("{0} Methods:", formatstr);
+        Console.WriteLine("{0} Methods:", objType.Name);
         MethodInfo[] info = myObj.GetType().GetMethods();
         for (int i = 0; i < info.Length; i++)
         {
-            string s = info[i].ToString();
-            string[] output = s.Split(' ');
-            output = output[1].Split('(');
-            Console.WriteLine("{0}", output[0]);
+            Console.WriteLine("{0}", info[i].Name);
         }
     }
 }
